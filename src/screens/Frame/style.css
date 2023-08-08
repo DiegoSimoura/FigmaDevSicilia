@@ -1,3 +1,9 @@
+*{
+  display: grid;
+  place-self: center;
+  grid-template-columns: repeat(2,1fr);
+}
+
 #app{
   background-color: transparent;
   display: flex;
@@ -20,7 +26,7 @@
 
 .overlap {
   background-color: #fff;
-  width: 100%;
+  width: 100vw;
   height: 75px;
   position: absolute;
   top: 0;
@@ -339,6 +345,8 @@
   top: 7px;
   white-space: nowrap;
   width: 51px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-5 {
