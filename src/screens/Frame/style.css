@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  justify-content: center;
+  align-content: center;
 }
 
 .div {
@@ -295,6 +297,8 @@
   top: 8px;
   white-space: nowrap;
   width: 79px;
+  display: grid;
+  align-content: space-around;
 }
 
 .text-wrapper-3 {
@@ -360,6 +364,8 @@
   top: 7px;
   white-space: nowrap;
   width: 155px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-6 {
@@ -385,6 +391,8 @@
   top: 7px;
   white-space: nowrap;
   width: 59px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-7 {
@@ -410,6 +418,8 @@
   top: 7px;
   white-space: nowrap;
   width: 50px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-8 {
@@ -435,6 +445,8 @@
   top: 7px;
   white-space: nowrap;
   width: 76px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-9 {
@@ -460,6 +472,8 @@
   top: 7px;
   white-space: nowrap;
   width: 94px;
+  display: grid;
+  align-content: space-around;
 }
 
 .overlap-10 {
